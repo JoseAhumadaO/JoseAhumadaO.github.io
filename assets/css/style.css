@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body, a:visited, a:link{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2D3E50;
+}
+nav li{
+    display: inline-block;
+    margin-right: 50px;
+}
+nav ul{
+    margin: 0;
+}
+header{
+    height: 400px;
+    padding-top: 150px;
+}
+.back_black, .back_black > a:visited, .back_black > a:link{
+    background-color: #111111;
+    color: #FFFFFF;
+}
+.back_dark{
+    background-color: #2D3E50;
+    color: #FFFFFF;
+}
+.back_light{
+    background-color: #F2F2F2;
+}
+.font_dark{
+    font-weight: 800;
+}
+.font_med{
+    color: #909090;
+    font-weight: 450;
+    font-size: 0.9em
+}
+.font_light{
+    color: #adb8c0;
+    font-size: 0.8em
+}
